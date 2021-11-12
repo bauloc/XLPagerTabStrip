@@ -24,8 +24,5 @@ let package = Package(
             path: "Sources/FXPageControl",
             publicHeadersPath: "."
         ),
-        .testTarget(
-            name: "XLPagerTabStripTests",
-            dependencies: ["XLPagerTabStrip"]),
     ]
 )

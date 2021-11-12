@@ -322,7 +322,7 @@ open class ExampleBaseButtonBarPagerTabStripViewController: BaseButtonBarPagerTa
     }
 
     open func initialize() {
-        buttonBarItemSpec = .nibFile(nibName: "ButtonCell", bundle: .bundle(for: ButtonBarViewCell.self), width: { [weak self] (childItemInfo) -> CGFloat in
+        buttonBarItemSpec = .nibFile(nibName: "ButtonCell", bundle: .module, width: { [weak self] (childItemInfo) -> CGFloat in
             let label = UILabel()
             label.translatesAutoresizingMaskIntoConstraints = false
             label.font = self?.settings.style.buttonBarItemFont ?? label.font
