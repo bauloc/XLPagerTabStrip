@@ -26,6 +26,7 @@
 		E64C8538273B6E3400CEB101 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C8528273B6E3400CEB101 /* PagerTabStripViewController.swift */; };
 		E64C8539273B6E3400CEB101 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C8529273B6E3400CEB101 /* BaseButtonBarPagerTabStripViewController.swift */; };
 		E64C853A273B6E3400CEB101 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C852A273B6E3400CEB101 /* ButtonBarPagerTabStripViewController.swift */; };
+		E6EDE665273E244B000E53EC /* Bundle+XLPagerTabStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EDE664273E244B000E53EC /* Bundle+XLPagerTabStrip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		E64C8528273B6E3400CEB101 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerTabStripViewController.swift; sourceTree = "<group>"; };
 		E64C8529273B6E3400CEB101 /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		E64C852A273B6E3400CEB101 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		E6EDE664273E244B000E53EC /* Bundle+XLPagerTabStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+XLPagerTabStrip.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				E64C8528273B6E3400CEB101 /* PagerTabStripViewController.swift */,
 				E64C8529273B6E3400CEB101 /* BaseButtonBarPagerTabStripViewController.swift */,
 				E64C852A273B6E3400CEB101 /* ButtonBarPagerTabStripViewController.swift */,
+				E6EDE664273E244B000E53EC /* Bundle+XLPagerTabStrip.swift */,
 			);
 			path = XLPagerTabStrip;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				E64C8535273B6E3400CEB101 /* ButtonBarViewCell.swift in Sources */,
 				E64C8539273B6E3400CEB101 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
 				E64C852F273B6E3400CEB101 /* TwitterPagerTabStripViewController.swift in Sources */,
+				E6EDE665273E244B000E53EC /* Bundle+XLPagerTabStrip.swift in Sources */,
 				E64C852B273B6E3400CEB101 /* FXPageControl.m in Sources */,
 				E64C8537273B6E3400CEB101 /* BarPagerTabStripViewController.swift in Sources */,
 				E64C853A273B6E3400CEB101 /* ButtonBarPagerTabStripViewController.swift in Sources */,
