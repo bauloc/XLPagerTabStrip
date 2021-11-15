@@ -32,7 +32,7 @@ public protocol IndicatorInfoProvider {
 
 }
 
-public protocol PagerTabStripDelegate: NSObjectProtocol {
+public protocol PagerTabStripDelegate: class {
 
     func updateIndicator(for viewController: PagerTabStripViewController, fromIndex: Int, toIndex: Int)
 }
@@ -42,7 +42,7 @@ public protocol PagerTabStripIsProgressiveDelegate: PagerTabStripDelegate {
     func updateIndicator(for viewController: PagerTabStripViewController, fromIndex: Int, toIndex: Int, withProgressPercentage progressPercentage: CGFloat, indexWasChanged: Bool)
 }
 
-public protocol PagerTabStripDataSource: NSObjectProtocol {
+public protocol PagerTabStripDataSource: class {
 
     func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController]
 }
@@ -163,10 +163,10 @@ open class PagerTabStripViewController: UIViewController, UIScrollViewDelegate {
             tmpViewControllers[fromIndex] = currentChildVC
             pagerTabStripChildViewControllersForScrolling = tmpViewControllers
             containerView.setContentOffset(CGPoint(x: pageOffsetForChild(at: fromIndex), y: 0), animated: false)
-//            (navigationController?.view ?? view).isUserInteractionEnabled = !animated
+            (navigationController?.view ?? view).isUserInteractionEnabled = !animated
             containerView.setContentOffset(CGPoint(x: pageOffsetForChild(at: index), y: 0), animated: true)
         } else {
-//            (navigationController?.view ?? view).isUserInteractionEnabled = !animated
+            (navigationController?.view ?? view).isUserInteractionEnabled = !animated
             containerView.setContentOffset(CGPoint(x: pageOffsetForChild(at: index), y: 0), animated: animated)
         }
     }
